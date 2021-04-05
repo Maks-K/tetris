@@ -14,7 +14,7 @@ export class Loader {
     }
 
     loadAssets() {
-        this.loader.add('brick', './assets/brick.png');
+        this.loader.add('brick', './src/assets/brick.png');
     }
 
     generateLoadingScreen(appWidth: number, appHeight: number) {
