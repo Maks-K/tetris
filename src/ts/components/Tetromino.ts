@@ -1,3 +1,4 @@
+import * as PIXI from 'pixi.js';
 import {Matrix} from "../utils/Matrix";
 import {BLOCK_SIDE_LENGTH} from "../config/layout";
 import {COLORS} from "../config/colors";

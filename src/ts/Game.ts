@@ -1,3 +1,4 @@
+import * as PIXI from 'pixi.js';
 import {Loader} from "./Loader";
 import {Model, TransformOptions} from "./Model";
 import {scaleToWindow} from "./utils/scateToWindow";

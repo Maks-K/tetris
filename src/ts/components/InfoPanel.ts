@@ -1,3 +1,4 @@
+import * as PIXI from 'pixi.js';
 import {Tetromino} from "./Tetromino";
 import {getRandomShape} from "../config/shapes";
 import {tickerConfig} from "../config/ticker";

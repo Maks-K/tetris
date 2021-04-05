@@ -1,3 +1,5 @@
+import * as PIXI from 'pixi.js';
+
 export class Loader {
     loader: PIXI.Loader;
     loadingScreen: PIXI.Text;
