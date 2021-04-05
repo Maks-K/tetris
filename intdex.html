@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Tetris</title>
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="src/styles/main.css">
     <!--adding PIXI globally, there's no need to have it imported and bundled again:-->
-    <script src="../node_modules/pixi.js/dist/pixi.js"></script>
+    <script src="node_modules/pixi.js/dist/pixi.js"></script>
     <style type="text/css">
         @font-face {
             font-family: "Tetris";
-            src: url('fonts/Tetris2-VP0w.ttf');
+            src: url('src/fonts/Tetris2-VP0w.ttf');
         }
     </style>
 </head>
 <body>
-    <script src="../dist/bundle.js"></script>
+    <script src="dist/bundle.js"></script>
 
     <div id="fontLoader" style="visibility: hidden">
         <div style="font-family: 'Tetris'">.</div>
